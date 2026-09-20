@@ -1,0 +1,6 @@
+auto-save-list/
+custom-vars.el
+eln-cache/
+elpa/
+user-lisp/.user-lisp-autoloads.el
+**.elc
