@@ -1,3 +1,4 @@
+;;;###autoload
 (defun esperantize-region (start end)
   (interactive (list (region-beginning) (region-end)))
   (let ((contents (buffer-substring start end)))
