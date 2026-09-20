@@ -1,4 +1,4 @@
-
+;;; ... -*- lexical-binding: t -*-
 (defun surround-with (start end pre post)
   "Wrap region with custom strings."
   (interactive
