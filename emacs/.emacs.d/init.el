@@ -164,6 +164,9 @@
         (typst . ("https://github.com/uben0/tree-sitter-typst"))
         (go . ("https://github.com/tree-sitter/tree-sitter-go"))))
 
+(use-package markdown-mode)
+(use-package yaml-mode)
+
 (use-package typst-ts-mode
   :mode "\\.typ\\'")
 
