@@ -1,6 +1,12 @@
 auto-save-list/
-custom-vars.el
 eln-cache/
 elpa/
+transient/
+
+places
+recentf
+custom-vars.el
 user-lisp/.user-lisp-autoloads.el
+
 **.elc
+**.eld
