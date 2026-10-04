@@ -2,7 +2,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 vim.o.number = true
-vim.o.mouse = true
+vim.o.mouse = 'a'
 vim.o.showmode = false
 
 vim.schedule(function()
@@ -26,6 +26,10 @@ vim.o.scrolloff = 10
 
 vim.o.tabstop = 4
 vim.o.shiftwidth = 4
+
+-- Plugins, completion and LSP
+require('plugins')
+require('lsp')
 
 vim.api.nvim_create_autocmd('TextYankPost', {
   desc = 'Highlight when yanking (copying) text',
